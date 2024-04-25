@@ -1,0 +1,13 @@
+ El volumen de la unidad C es SSD KINGSTON A400
+ El número de serie del volumen es: 4273-265B
+
+ Directorio de C:\Users\PC\Documents\MIS CURSOS\CURSO DE BATCH SCRIPTING
+
+23/04/2023  06:58 PM    <DIR>          .
+23/04/2023  06:58 PM    <DIR>          ..
+23/04/2023  06:55 PM    <DIR>          carpetaDePrueba
+23/04/2023  06:58 PM                 0 lista.txt
+23/04/2023  06:36 PM               226 primer.bat
+23/04/2023  06:58 PM               569 segundo.bat
+               3 archivos            795 bytes
+               3 dirs  274.069.028.864 bytes libres
