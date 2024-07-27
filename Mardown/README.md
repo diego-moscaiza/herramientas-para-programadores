@@ -44,9 +44,9 @@ Sin embargo se puede usar indentación, tabulación que es similar a la sangría
 
 <br/>
 
-## 3.- Separar párrafos
+## 3.- Salto de línea
 
-Para separar párrafos se puede colocar la etiqueta break **`<br>`** de `Html`.
+Para crear saltos de línea se puede colocar la etiqueta break **`<br />`** de `Html`.
 
 ### - Sintaxis en markdown
 
