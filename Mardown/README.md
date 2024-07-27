@@ -46,15 +46,13 @@ Los párrafos en Markdown **no** se necesita símbolo al inicio.
 Sin embargo se puede usar indentación, tabulación que es similar a la sangría en textos para poder mostrarlo de la siguiente forma:
 
 ### - Sintaxis en markdown
-
 ```md
     Hola, aquí aprendiendo Markdown :D
 ```
 
 ### - Resultado:
-
     Hola, aquí aprendiendo Markdown :D
-<br/>
+
 
 ## 3.- Salto de línea
 
