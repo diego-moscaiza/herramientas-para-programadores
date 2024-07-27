@@ -51,6 +51,11 @@ Para separar párrafos se puede colocar la etiqueta break **`<br>`** de `Html`.
 ### - Sintaxis en markdown
 
 ```md
+<!-- Sin <br /> -->
+Primer renglón
+Segundo renglón
+
+<!-- Con <br /> -->
 Primer renglón
 
 <br/>
@@ -59,14 +64,15 @@ Segundo renglón
 ```
 
 ### - Resultado:
+
+<!-- Sin <br /> -->
 Primer renglón
-
-<br/>
-
 Segundo renglón
 
-
+<!-- Con <br /> -->
+Primer renglón
 <br/>
+Segundo renglón
 
 
 ## 4.- Fuentes
@@ -82,13 +88,17 @@ Para un texto en ~~`suprimida`~~ se usa el símbolo de equivalencia o virgulilla
 
 ```md
 **negrita**
+<br/>
 _italika_
+<br/>
 ~~suprimida~~
 ```
 
 ### - Resultado:
 **negrita**
+<br/>
 _italika_
+<br/>
 ~~suprimida~~
 
 
