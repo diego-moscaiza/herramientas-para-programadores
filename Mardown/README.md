@@ -34,7 +34,7 @@ Sin embargo se puede usar indentación, tabulación que es similar a la sangría
 ### - Sintaxis en markdown
 
 ```md
-Hola, aquí aprendiendo Markdown :D
+    Hola, aquí aprendiendo Markdown :D
 ```
 
 ### - Resultado:
