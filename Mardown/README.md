@@ -1,23 +1,18 @@
 # Introducción de Markdown
 
 Markdown es un lenguaje de marcado ligero creado en 2004 por [John Gruber](https://en.wikipedia.org/wiki/John_Gruber), con la ayuda de [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz).
-
 <br />
 
 Su objetivo principal era permitir a los escritores concentrarse en el contenido sin preocuparse por el formato, utilizando una sintaxis simple y fácil de leer. Inspirado por lenguajes de marcado anteriores como HTML, pero diseñado para ser mucho más sencillo, Markdown se convirtió rápidamente en una herramienta popular para crear documentos web, especialmente en plataformas de blogs, documentación y colaboraciones en GitHub.
-
 <br />
 
 Su facilidad de uso y capacidad para ser convertido a múltiples formatos han sido clave en su adopción y duradera popularidad en la comunidad de desarrolladores y escritores.
-
 <br />
 
 Para comenzar a escribir contenido usando Markdown es necesario crear archivos con la extensión `.md`. En plataformas como Github se debe nombrar como `README.md`.
-
 <br />
 
 A continuación te muestro la sintaxis de Markdown:
-
 <br />
 
 ## 1.- Cabeceras
@@ -41,7 +36,6 @@ Para las cabeceras (_"headers"_) que son **`<h1>`** en `Html` se empieza con el 
 ### h3
 #### h4
 ##### h5
-
 <br/>
 
 
@@ -60,8 +54,6 @@ Sin embargo se puede usar indentación, tabulación que es similar a la sangría
 ### - Resultado:
 
     Hola, aquí aprendiendo Markdown :D
-
-
 <br/>
 
 ## 3.- Salto de línea
@@ -91,7 +83,7 @@ Segundo renglón
 Primer renglón
 <br/>
 Segundo renglón
-
+<br/>
 
 ## 4.- Fuentes
 
@@ -100,7 +92,6 @@ Para un texto en **`negrita`** se usa el asterisco o caret **`*`** al inicio y a
 Para un texto en _`italika`_ se usa el guión bajo **`_`** al inicio y al final de la palabra o frase.
 
 Para un texto en ~~`suprimida`~~ se usa el símbolo de equivalencia o virgulilla **`~`** 2 veces al inicio y al final de la palabra o frase.
-
 
 ### - Sintaxis en markdown
 
@@ -118,10 +109,7 @@ _italika_
 _italika_
 <br/>
 ~~suprimida~~
-
-
 <br/>
-
 
 ## 5.- Hipervínculos
 
@@ -143,7 +131,6 @@ Para los hipervínculos o, normalmente llamados, enlaces se usan las llaves **`[
 
 <br/>
 
-
 ## 6.- **Archivos multimedia**
 
 Para poder mostrar un archivo multimedia es similar a los enlaces; se usan los símbolos de incógnita y las llaves **`![ ]`** para declararle una referencia y seguido va un paréntesis **`( )`** para colocar la dirección local o remota de la imagen o video que se quiera visualizar.
@@ -157,9 +144,7 @@ Para poder mostrar un archivo multimedia es similar a los enlaces; se usan los s
 ### - Resultado:
 
 ![Imagen](https://markdown.net.br/assets/img/basic-syntax/markdown-headings-alternative-syntax_w1280.png)
-
 <br/>
-
 
 ## 7.- Listas
 
@@ -187,7 +172,6 @@ No se puede usar el mismo símbolo a la vez ya que habrá salto de línea.
   - first
   - second
 + Cuarto
-
 <br/>
 
 ### 7.2.- Lista y sub lista ordenada
@@ -213,9 +197,7 @@ Para esto se coloca números con un punto al inicio, por ejemplo `1.`, y para la
     1. uno
     2. dos
     3. tercero
-
 <br/>
-
 
 ## 8.- Citas
 
@@ -224,16 +206,13 @@ Para esto se usa el símbolo **mayor que** **`>`** al inicio.
 ### - Sintaxis de markdown
 
 ```md
-
 > Las citas bibliográficas o notas pueden estar aquí. (APELLIDO, Nombre. Fecha y Año).
 ```
 
 ### - Resultado:
 
 > Las citas bibliográficas o notas pueden estar aquí. (APELLIDO, Nombre. Fecha y Año).
-
 <br/>
-
 
 ## 9.- Lista de verificación (Check List)
 
@@ -252,9 +231,7 @@ Para esto se usa los símbolos guión **`-`** y las llaves **`[ ]`** para crear 
 - [x] PRIME TASK COMPLETED.
 - [ ] This is a incomplete item.
 - [ ] Task incomplete again.
-
 <br/>
-
 
 ## 10.- Tablas
 
@@ -279,9 +256,7 @@ La primera fila es de las cabeceras, en la siguiente fila se coloca el símbolo 
 | A1       | B1       | C1       |
 | A2       | B2       | C2       |
 | A3       | B3       | C3       |
-
 <br/>
-
 
 ## 11.- Texto como código
 
@@ -295,11 +270,11 @@ Para mostrar una palabra con `este formato` se utiliza el símbolo de acento gra
 
 ### - Resultado:
 `texto`
+<br/>
 
 ## 12.- Bloques de código de programación
 
 Para poder mostrar una porción de código se utiliza el símbolo de acento grave 3 veces al inicio con o sin un nombre del lenguaje de programación específico **`(```javascript)`** y 3 símbolos al final **`(```)`**.
-
 
 ### - Sintaxis en markdown
 
@@ -320,5 +295,4 @@ Para poder mostrar una porción de código se utiliza el símbolo de acento grav
   var foo = "bar";
   if(true) return foo;
 ```
-
 <br/>
