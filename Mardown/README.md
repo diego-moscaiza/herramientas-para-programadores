@@ -57,9 +57,7 @@ Segundo renglón
 
 <!-- Con <br /> -->
 Primer renglón
-
 <br/>
-
 Segundo renglón
 ```
 
