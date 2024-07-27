@@ -283,14 +283,14 @@ Para poder mostrar una porción de código se utiliza el símbolo de acento grav
 
 ### - Sintaxis en markdown
 
-```md
+````markdown
   ```javascript
   // Ejemplo de Javascript
 
   var foo = "bar";
-  if(true) return foo;
+  if (true) return foo;
   ```
-```
+````
 
 ### - Resultado:
 
