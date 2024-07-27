@@ -210,7 +210,6 @@ Para esto se usa el símbolo **mayor que** **`>`** al inicio.
 ### - Resultado:
 
 > Las citas bibliográficas o notas pueden estar aquí. (APELLIDO, Nombre. Fecha y Año).
-<br/>
 
 ## 9.- Lista de verificación (Check List)
 
