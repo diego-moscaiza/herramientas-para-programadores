@@ -1,50 +1,109 @@
-# **INTRODUCCIÓN A MARKDOWN**
+# Introducción de Markdown
 
-# **CABECERAS**
+## 1.- Cabeceras
 
-Para los _"headers"_ que son **_"h1"_** en **_"HTML"_** se empieza con el símbolo numeral, almohadilla o hash **"#"** y luego el nombre de la cabecera. Dependiendo de la cantidad de símbolos usados será el nivel.
+Para las cabeceras (_"headers"_) que son **`<h1>`** en `Html` se empieza con el símbolo numeral, almohadilla o hash **`#`** y luego el nombre de la cabecera. Dependiendo de la cantidad de símbolos usados será el nivel.
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
+### - Sintaxis en markdown
+
+```md
+# h1
+## h2
+### h3
+#### h4
+##### h5
+```
+
+### - Resultado:
+
+# h1
+## h2
+### h3
+#### h4
+##### h5
 
 <br/>
 
 
-# **PÁRRAFO**
+## 2.- Párrafos
 
 Los párrafos en Markdown **no** se necesita símbolo al inicio.
 
 Sin embargo se puede usar indentación, tabulación que es similar a la sangría en textos para poder mostrarlo de la siguiente forma:
 
-    Hola, aqui aprendiendo Markdown :D
+### - Sintaxis en markdown
+
+```md
+Hola, aquí aprendiendo Markdown :D
+```
+
+### - Resultado:
+
+    Hola, aquí aprendiendo Markdown :D
 
 
 <br/>
 
-# **SEPARAR PÁRRAFOS**
+## 3.- Separar párrafos
 
-Para separar párrafos se puede colocar la etiqueta break **_"br"_** de **_HTML_**.
+Para separar párrafos se puede colocar la etiqueta break **`<br>`** de `Html`.
+
+### - Sintaxis en markdown
+
+```md
+Primer renglón
+<br/>
+Segundo renglón
+```
+
+### - Resultado:
+Primer renglón
+<br/>
+Segundo renglón
+
 
 <br/>
 
 
-# **FUENTES**
+## 4.- Fuentes
 
-Para un texto en **NEGRITA** se usa el aterisco o caret **"*"** al inicio y al final de la palabra o frase.
+Para un texto en **`negrita`** se usa el asterisco o caret **`*`** al inicio y al final de la palabra o frase.
 
-Para un texto en _ITALIKA_ se usa el guión bajo **"_"** al inicio y al final de la palabra o frase.
+Para un texto en _`italika`_ se usa el guión bajo **`_`** al inicio y al final de la palabra o frase.
 
-Para un texto en ~~SUPRIMIDA~~ se usa el símbolo de equivalencia o virgulilla **"~"** 2 veces al inicio y al final de la palabra o frase.
+Para un texto en ~~`suprimida`~~ se usa el símbolo de equivalencia o virgulilla **`~`** 2 veces al inicio y al final de la palabra o frase.
+
+
+### - Sintaxis en markdown
+
+```md
+**negrita**
+_italika_
+~~suprimida~~
+```
+
+### - Resultado:
+**negrita**
+_italika_
+~~suprimida~~
+
 
 <br/>
 
 
-# **HIPERVÍNCULOS**
+## 5.- Hipervínculos
 
-Para los hipervínculos o, normalmente llamados, enlaces se usan las llaves **"[ ]"** para el texto del hipervínculo y seguido va un paréntesis **"( )"** para colocar la direccion local o remota del sitio al cual se va a redireccionar.
+Para los hipervínculos o, normalmente llamados, enlaces se usan las llaves **`[ ]`** para el texto del hipervínculo y seguido va un paréntesis **`( )`** para colocar la dirección local o remota del sitio al cual se va a redireccionar.
+
+### - Sintaxis de markdown
+
+```md
+[Markdown / Sintaxis Básica](https://www.silocreativo.com/que-es-markdown-por-que-deberias-empezar-a-usarlo/)
+
+[Comparación entre Markdown y HTML](https://comunidad.dev/2020/04/22/markdown-y-html-comparando-la-sintaxis-basica-de-los-dos/)
+```
+
+### - Resultado:
 
 [Markdown / Sintaxis Básica](https://www.silocreativo.com/que-es-markdown-por-que-deberias-empezar-a-usarlo/)
 
@@ -53,57 +112,110 @@ Para los hipervínculos o, normalmente llamados, enlaces se usan las llaves **"[
 <br/>
 
 
-# **ARCHIVOS MULTIMEDIA**
+## 6.- **Archivos multimedia**
 
-Para poder mostrar un archivo multimedia es similiar a los enlaces; se usan los simbolos de incógnita y las llaves **"![ ]"** para declararle una referencia y seguido va un paréntesis **"( )"** para colocar la direccion local o remota de la imagen o video que se quiera visualizar.
+Para poder mostrar un archivo multimedia es similar a los enlaces; se usan los símbolos de incógnita y las llaves **`![ ]`** para declararle una referencia y seguido va un paréntesis **`( )`** para colocar la dirección local o remota de la imagen o video que se quiera visualizar.
+
+### - Sintaxis de markdown
+
+```md
+![Imagen](https://markdown.net.br/assets/img/basic-syntax/markdown-headings-alternative-syntax_w1280.png)
+```
+
+### - Resultado:
 
 ![Imagen](https://markdown.net.br/assets/img/basic-syntax/markdown-headings-alternative-syntax_w1280.png)
 
 <br/>
 
 
-# **LISTAS**
+## 7.- Listas
 
-## Lista y sublista Desordenada
+### 7.1.- Lista y sub lista sin orden
 
-Para esto se usa el guión **"-"**, asterisco **"*"** ó suma **"+"** y para la sublista de añade la indentacón.
+Para esto se usa el guión **`-`**, asterisco **`*`** ó suma **`+`** y para la sub lista de añade la indentación.
 No se puede usar el mismo símbolo a la vez ya que habrá salto de línea.
 
-- PRIME
-- SECOND
-* THIRD
+### - Sintaxis de markdown
+
+```md
+- Primero
+- Segundo
+* Tercero
   - first
   - second
-+ FORTH
++ Cuarto
+```
+
+### - Resultado:
+
+- Primero
+- Segundo
+* Tercero
+  - first
+  - second
++ Cuarto
 
 <br/>
 
-## Lista y sublista Ordenada
+### 7.2.- Lista y sub lista ordenada
 
-Para esto se usan _los números_ con un punto **"."** y para la sublista de añade la indentacón.
+Para esto se coloca números con un punto al inicio, por ejemplo `1.`, y para la sub lista de añade la indentación de cuatro (4) espacios o una (1) tabulación.
 
-1. PRIMERO
-2. SEGUNDO
-3. TERCERO
-   1. first
-   2. second
-   3. thrid
+### - Sintaxis de markdown
+
+```md
+1. Primero
+2. Segundo
+3. Tercero
+    1. uno
+    2. dos
+    3. tercero
+```
+
+### - Resultado:
+
+1. Primero
+2. Segundo
+3. Tercero
+    1. uno
+    2. dos
+    3. tercero
 
 <br/>
 
 
-# **CITAS**
+## 8.- Citas
 
-Para esto se usa el simbolo _mayor que_ **">"** al inicio.
+Para esto se usa el símbolo **mayor que** **`>`** al inicio.
 
-> Las citas bibliográficas o notas pueden estar aqui. (MOSCAIZA, Diego. 16 de junio,2023. No me acuerdo como hacer una cita BIBLIOGRÁFICA iso xdxdxd).
+### - Sintaxis de markdown
+
+```md
+
+> Las citas bibliográficas o notas pueden estar aquí. (APELLIDO, Nombre. Fecha y Año).
+```
+
+### - Resultado:
+
+> Las citas bibliográficas o notas pueden estar aquí. (APELLIDO, Nombre. Fecha y Año).
 
 <br/>
 
 
-# **CHECK LIST**
+## 9.- Lista de verificación (Check List)
 
-Para esto se usa los símbolos guión **"-"** y las llaves **"[ ]"** para crear la celda donde se hará **_check_** con "X" dentro de las llaves.
+Para esto se usa los símbolos guión **`-`** y las llaves **`[ ]`** para crear la celda donde se hará **_`check`_** con `X` dentro de las llaves.
+
+### - Sintaxis de markdown
+
+```md
+- [x] PRIME TASK COMPLETED.
+- [ ] This is a incomplete item.
+- [ ] Task incomplete again.
+```
+
+### - Resultado:
 
 - [x] PRIME TASK COMPLETED.
 - [ ] This is a incomplete item.
@@ -112,28 +224,69 @@ Para esto se usa los símbolos guión **"-"** y las llaves **"[ ]"** para crear 
 <br/>
 
 
-# **TABLAS**
+## 10.- Tablas
 
-Para esto se usa el símbolo  pleca o barra vertical **"|"**, esto sirve para separar columnas. 
-La primera fila es de las cabeceras, en la siguiente fila se coloca el símbolo de barra vertical entre 2 guiones a inicio y al final **"---|---"** para una linea recta que separá de los demás datos y dar formato de tabla.
+Para esto se usa el símbolo  pleca o barra vertical **`|`**, esto sirve para separar columnas.
 
-Column A | Column B | Column C
----------|----------|---------
- A1 | B1 | C1
- A2 | B2 | C2
- A3 | B3 | C3
+La primera fila es de las cabeceras, en la siguiente fila se coloca el símbolo de barra vertical entre 2 guiones a inicio y al final **`---|---`** para una linea recta que separará de los demás datos y dar formato de tabla.
+
+### - Sintaxis de markdown
+
+```md
+| Column A | Column B | Column C |
+| -------- | -------- | -------- |
+| A1       | B1       | C1       |
+| A2       | B2       | C2       |
+| A3       | B3       | C3       |
+```
+
+### - Resultado:
+
+| Column A | Column B | Column C |
+| -------- | -------- | -------- |
+| A1       | B1       | C1       |
+| A2       | B2       | C2       |
+| A3       | B3       | C3       |
 
 <br/>
 
 
-# **CÓDIGO PROGRAMACIÓN**
+## 11.- Texto como código
 
-Para poder mostrar una porción de código se utiliza el símbolo de acento grave "**```**" 3 veces al inicio con o sin un nombre del lenguaje de programación específico y al final solo.
+Para mostrar una palabra con `este formato` se utiliza el símbolo de acento grave al inicio y al final **( ` )**
+
+### - Sintaxis en markdown
+
+```md
+`texto`
+```
+
+### - Resultado:
+`texto`
+
+## 12.- Bloques de código de programación
+
+Para poder mostrar una porción de código se utiliza el símbolo de acento grave 3 veces al inicio con o sin un nombre del lenguaje de programación específico **`(```javascript)`** y 3 símbolos al final **`(```)`**.
+
+
+### - Sintaxis en markdown
+
+```md
+  ```javascript
+  // Ejemplo de Javascript
+
+  var foo = "bar";
+  if(true) return foo;
+  ```
+```
+
+### - Resultado:
 
 ```javascript
-// Ejemplo de Javascript
+  // Ejemplo de Javascript
 
-var foo = "bar";
-if(true) foo = "foo";
+  var foo = "bar";
+  if(true) return foo;
 ```
+
 <br/>
