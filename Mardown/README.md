@@ -195,7 +195,7 @@ Para esto se coloca números con un punto al inicio, por ejemplo `1.`, y para la
     1. uno
     2. dos
     3. tercero
-<br/>
+
 
 ## 8.- Citas
 
@@ -228,7 +228,6 @@ Para esto se usa los símbolos guión **`-`** y las llaves **`[ ]`** para crear 
 - [x] PRIME TASK COMPLETED.
 - [ ] This is a incomplete item.
 - [ ] Task incomplete again.
-<br/>
 
 ## 10.- Tablas
 
@@ -253,7 +252,7 @@ La primera fila es de las cabeceras, en la siguiente fila se coloca el símbolo 
 | A1       | B1       | C1       |
 | A2       | B2       | C2       |
 | A3       | B3       | C3       |
-<br/>
+
 
 ## 11.- Texto como código
 
@@ -267,7 +266,6 @@ Para mostrar una palabra con `este formato` se utiliza el símbolo de acento gra
 
 ### - Resultado:
 `texto`
-<br/>
 
 ## 12.- Bloques de código de programación
 
