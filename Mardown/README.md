@@ -1,5 +1,17 @@
 # Introducción de Markdown
 
+Markdown es un lenguaje de marcado ligero creado en 2004 por [John Gruber](https://en.wikipedia.org/wiki/John_Gruber), con la ayuda de [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz).
+<br />
+Su objetivo principal era permitir a los escritores concentrarse en el contenido sin preocuparse por el formato, utilizando una sintaxis simple y fácil de leer. Inspirado por lenguajes de marcado anteriores como HTML, pero diseñado para ser mucho más sencillo, Markdown se convirtió rápidamente en una herramienta popular para crear documentos web, especialmente en plataformas de blogs, documentación y colaboraciones en GitHub.
+<br />
+Su facilidad de uso y capacidad para ser convertido a múltiples formatos han sido clave en su adopción y duradera popularidad en la comunidad de desarrolladores y escritores.
+<br />
+Para comenzar a escribir contenido usando Markdown es necesario crear archivos con la extensión `.md`. En plataformas como Github se debe nombrar como `README.md`.
+<br />
+A continuación te muestro la sintaxis de Markdown:
+
+<br />
+
 ## 1.- Cabeceras
 
 Para las cabeceras (_"headers"_) que son **`<h1>`** en `Html` se empieza con el símbolo numeral, almohadilla o hash **`#`** y luego el nombre de la cabecera. Dependiendo de la cantidad de símbolos usados será el nivel.
