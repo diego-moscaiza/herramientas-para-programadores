@@ -52,13 +52,17 @@ Para separar párrafos se puede colocar la etiqueta break **`<br>`** de `Html`.
 
 ```md
 Primer renglón
+
 <br/>
+
 Segundo renglón
 ```
 
 ### - Resultado:
 Primer renglón
+
 <br/>
+
 Segundo renglón
 
 
