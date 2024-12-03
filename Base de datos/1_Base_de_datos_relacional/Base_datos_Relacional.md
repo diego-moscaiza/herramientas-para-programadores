@@ -12,11 +12,12 @@ En las filas se encuentra campos donde se puede ingresar y manipular datos. Tamb
 
 Las columnas son creadas cuando se definen los atributos de la tabla con su tipo de dato que puede ser numérico, de caractér unico o una cadena de texto.
 
-Columna A | Columna B | Columna C
-----------|-----------|----------
- Dato A1  | Dato B1   | Dato C1
- Dato A2  | 123578    |
- Dato A3  |           | M
+| Nombre     | Precio    | Estado      |
+|------------|-----------|-------------|
+| Producto 1 | 25.50     | Disponible  |
+| Producto 2 | 13.00     | *vacío*     |
+| Producto 3 | *vacío*   | Agotado     |
+| Producto 4 | 8.75      | Disponible  |
 
 ## Lenguajes dentro de SQL
 
